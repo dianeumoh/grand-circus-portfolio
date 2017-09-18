@@ -1,0 +1,388 @@
+/* global styles */
+
+/*#wrapper {
+  min-width: 920px;
+  width: 90%;
+  max-width: 1385px;
+}*/
+
+body {
+	color: #555;
+	background-color: #F9F9F9;
+	margin: 0;
+}
+
+h1, h2, strong {
+	color: #333;
+	padding: 35px;
+	padding: 0 10%;
+} 
+
+p {
+	font-family: 'Avenir', arial, helvetica, sans-serif;
+	color: #555;
+
+	/*padding: 35px;
+	padding: 0 10%;*/
+}
+
+/* header styles */
+
+.header {
+	height: 100px;
+}
+
+.main {
+	color: #454545;
+	font-family: 'Ubuntu', serif;
+	font-size:40px;
+	float: left;
+	opacity: 0.9;
+	margin-left: 5%;
+	line-height: 100px;
+}
+
+.navigation {
+	font-family: 'Avenir', arial, sans-serif;
+	font-size:22px;
+	color:#ffffff;
+	float:right;
+	list-style: none;
+	margin-right: 5%;
+	line-height: 100px; 
+}
+
+.navigation li {
+	display: inline;
+	padding: 10px 20px 5px 20px;
+	opacity: 0.7;
+	color: #454545;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.navigation li:hover {
+	border-bottom: solid 3px #20FAAF;
+	opacity: 1.0;
+	color: #215ADB;
+}
+
+.navigation a:visited {
+	color: #454545;
+}
+/* body styles */
+
+.intro {
+	font-family: 'Ubuntu', serif;
+	font-size: 3em;
+	color:#ffffff;
+	margin: 0 auto;
+	padding-top: 100px;
+
+}
+.secondary {
+	font-family: 'Ubuntu', serif;
+	font-size:1.5em;
+	clear: both;
+	color:#F9F9F9;
+	margin: 10px auto;
+}
+
+#container {
+	background: linear-gradient(
+	rgba(33,90,219, 0.7),
+	rgba(0, 0, 0, 0.8)),  url("images/Grand-Rapids-Skyline_GRCVB.jpg");
+    padding-top: 100px;
+    background-position: center center;
+    min-height: 450px;
+    width: 100%;
+    color: white;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* blockquote */
+.quote {
+	text-align: center;
+	padding:6% 6% 0% 6%;
+}
+
+.quote-card {
+	font-size: 2em;
+	font-family: 'Avenir', arial, sans-serif;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+
+.quote-card:before {
+	content:'“';
+	font-size: 9em;
+	opacity: 0.2;
+	font-family: Georgia, serif;
+	float: left;
+	line-height: 43%;
+	margin-right: -105px;
+}
+
+.quote-card:after {
+	content:'”';
+	font-size: 9em;
+	opacity: 0.2;
+	font-family: Georgia, serif;
+	float: right;
+	line-height: 10%;
+}
+
+.quote-card cite {
+	font-size: 18px;
+	font-family: 'Avenir', arial, sans-serif;
+}
+
+.quote-card p {
+	margin-bottom: 20px;
+	color: #215ADB;
+}
+
+/* my work text */
+
+.my-work {
+	text-align: center;
+	background-color: #fff
+	min-height: 90px;
+	width: 100%;
+	padding-top:20px;
+}
+
+.my-work h2 {
+	font-size: 30px;
+	font-family:'Ubuntu', serif;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 5%;
+	padding-bottom: 10px;
+	opacity: 0.9;
+	}
+
+.my-work p {
+	font-size: 16px;
+	font-family:'Avenir', arial, serif;
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 50px;
+	padding-top:1%;
+	}
+
+	/*image styles */
+#images {
+	width: 80%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:5%;
+	background-color: #fff;
+}
+
+.image-row {
+	width:100%;
+}
+
+#images img {
+	width:25%;
+	background-color: #fff;
+	border-image-width: 0px;
+	display: block;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	filter: blur(1px);
+}
+
+#images img:hover {
+	filter: blur(0px);
+}
+
+/* footer style */
+#footer {
+	padding-top: 3%;
+	padding-bottom: 1%;
+	text-align: center;
+	font-size: 100%
+}
+
+#footer img {
+	width:2%;
+	padding:1%;
+}
+
+.copyright {
+	font-size:11px;
+	color:#;
+}
+
+
+/* The About Me Page */
+
+.about-container {
+	background-color: #fff;	
+}
+
+.header-about {
+	padding: 4% 3% 15% 3%;
+	float: left;
+	width: 45%;
+}
+
+.header-about h1 {
+	color: #454545;
+	font-family: 'Ubuntu', serif;
+	font-size: 2.5em;
+	opacity: 0.85;
+	padding-left: 0;
+	padding-bottom:2.5%;
+}
+
+.header-about h2 {
+	color: #215ADB;
+	font-family: 'Avenir', arial, serif;
+	font-size: 1.6em;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left: 0;
+	font-style: italic;
+	line-height: 1.15em;
+}
+
+.header-about h3 {
+	color: #215ADB;
+	font-family: 'Ubuntu', serif;
+	font-size: 1.5em;
+	padding-top: 2%;
+	padding-left: 0;
+	line-height: 1.15em;
+}
+
+.header-about p {
+	color: #454545;
+	font-family: 'Avenir', arial, sans-serif;
+	font-size: 1.4em;
+	text-align: left;
+	padding-top: 1.5%;
+	padding-bottom: 4%;
+	display: inline-block;
+	line-height: 1.15em;
+}
+.header-about ol {
+	padding-left: 4%;
+	line-height: 1.8em;
+}
+.header-about a {
+	text-decoration: none;
+	color: #215ADB;
+}
+
+.header-about a:hover {
+	background-color: #20FAAF;
+}
+
+.header-about li {
+	list-style-type: decimal;
+	font-family: 'Avenir', arial, sans-serif;
+	font-size: 1.3em;
+}
+
+.me {
+	float: left;
+	width:49%;
+}
+
+.me img {
+	width: 50%;
+	padding-top: 8%;
+	vertical-align: middle;
+}
+
+/* contact form header */
+
+#container-contact {
+	background: linear-gradient(
+	rgba(33,90,219, 0.7),
+	rgba(0, 0, 0, 0.8)),  url("images/grmap_new.png");
+    padding-top: 100px;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+    color: white;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* contact form */
+
+.contact-wrapper {
+	background-color:#fff;
+	padding-bottom: 2em;
+}
+
+.contact-header {
+	text-align: center;
+	color: #215ADB;
+	font-family: 'Ubuntu', serif;
+	font-size: 2em;
+	padding-top: 2em;
+}
+
+.contact-form {
+	float: left;
+	width:80%;
+	padding-left:10%;
+	padding-top: 5%;
+}
+
+.contact-form input, .contact-form textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 4px;
+	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-size: 1.15em;
+}
+
+.contact-form input[type=submit] {
+    width: 50%;
+    background-color: #fff;
+    color:#215ADB;
+    border-color: #215ADB;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.contact-form input[type=submit]:hover {
+    background-color: #215ADB;
+    color:#fff;
+}
+.contact-form label {
+	font-family: 'Avenir', arial, sans-serif;
+	font-size: 1.2em;
+}
