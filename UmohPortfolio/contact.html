@@ -31,7 +31,7 @@
 				<h2>Let’s work together.</h2>
 			</div>
 			<div class="contact-form">
-				<form action="/action_page.php" method="post">
+				<form id="contactdi" onsubmit="event.preventDefault(); thankyou();" action="/action_page.php" method="post">
 				  <label>First Name:</label><br>
 				  <input type="text" name="firstname" placeholder="Arya">
 				  <br>
@@ -54,5 +54,7 @@
 		<p class="copyright">&reg;&nbsp;2017&nbsp;Diane Umoh. All Rights Reserved</p>
 	</div>
 	</div><!-- end wrapper div -->
+	<!-- javascript -->
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
